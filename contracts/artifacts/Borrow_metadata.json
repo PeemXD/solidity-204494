@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "collateralOver",
+						"type": "uint256"
+					}
+				],
+				"name": "borrow",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "closePosition",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/borrow.sol": "Borrow"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/borrow.sol": {
+			"keccak256": "0x174073f1fbd375cddf5393cd49e4a43bef4d9d2cc40063339867bc1ff027866c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://add5991556926eee06d2fdcfa214f75e8c7934f4b2c20e42fa60dc8caa17e55d",
+				"dweb:/ipfs/QmVfzBnS6UgJ7Pq3AatdaejF1xyhf59Zz75BmZWjHnEEKz"
+			]
+		}
+	},
+	"version": 1
+}

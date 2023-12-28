@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "collateralOver",
+						"type": "uint256"
+					}
+				],
+				"name": "loan",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "repayLoan",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Loan.sol": "Loan"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Loan.sol": {
+			"keccak256": "0x83332ee8402235ed36a8f15aa6d933a87353ec8c7c569780c83ad4be41884ec8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a65af7e1b589c285a954e7768bb0109ce301d918272470df5ec8c6cc7faa7d97",
+				"dweb:/ipfs/QmUnv9EC1SbmCFKMyCPBpG97RsBELBqo3qjdkj1GzcxtUs"
+			]
+		}
+	},
+	"version": 1
+}
